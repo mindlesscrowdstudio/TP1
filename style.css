@@ -1,0 +1,137 @@
+/**estilos**/
+*{
+  font-family: sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+body {
+  background: #FFFFFF;
+}
+.capital {
+  text-transform: uppercase;
+}
+.color1 {
+  color:#404040;
+}
+.color2 {
+  color: #D80404;
+}
+header {
+  padding: 1em;
+}
+main {
+  background: #f2f2f2;
+}
+
+h1 {
+  font-size: 2.1em;
+  font-weight: 500;
+}
+h1 span {
+  font-weight: 700;
+  font-size: 2em; 
+}
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 0.5em 0.3em;
+
+}
+ul li:hover {
+  border-bottom: 2px solid #D80404;
+}
+ul li a {
+  font-size: 1em; 
+  font-weight: 900;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.alignR {
+  text-align: right;
+}
+.alignL {
+  text-align: left;
+}
+
+
+header nav {
+  display: block;
+  padding: 1em;
+  text-align: right;
+}
+.img-wrapper {
+  border-bottom: 2px solid #404040;
+}
+
+.wrapper {
+  padding: 5em;
+}
+#bio {
+  position: relative;
+}
+#bio p {
+  line-height: 2;
+  font-size: 1.1em;
+  width: 50%; 
+}
+#bio div {
+  width: 50%;
+}
+blockquote {
+  display: inline-block;
+}
+blockquote h2 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: 500;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: right;
+  width: 50%;
+    
+}
+article#poema {
+  position: relative;
+}
+
+#poema p {
+  font-size: 1em;
+  display: inline-block;
+  line-height: 2;
+  word-spacing: 0.3em;
+  width: 60%;
+}
+#poema div {
+  width: 40%;
+  display: inline-block;
+}
+#poema div img {
+  position: relative;
+}
+.image {
+ position: absolute;
+ top: 33%;
+}
+
+/*footer*/
+footer {
+  background: #FFFFFF;
+  position: relative;
+  display: block;
+}
+footer h3 {
+  font-size: 1.5em;
+  font-weight: 900;
+  text-align: center;
+  letter-spacing: 3px;
+  border-bottom: 2px solid #404040;
+
+}
